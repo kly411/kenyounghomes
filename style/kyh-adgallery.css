@@ -1,0 +1,45 @@
+#gallery {
+padding: 15px 30px 30px 30px;
+/*background: #e1eef5;*/
+background: #FFF;
+/*border: 1px solid black;*/
+}
+/*KLY*/
+#plan-info {
+	display: block;
+	background-color: #FFF;
+	width:100%;
+	font-family: Helvetica,Arial,sans-serif;
+	font-weight: 500;
+	font-size: 120%;
+	color:black;
+	/*border: 1px solid #000000;*/
+	padding: 10px 30px 0 0;
+	text-align: center;
+}
+#container {
+	width:100%;
+	border: 1px solid black;
+	background: white;
+	overflow: visible;
+}
+.price {
+	font-weight: 500;
+	color:black;
+}
+
+a.close-button {
+	width:25px;
+	height:29px;
+	display:inline;
+	z-index:3200;
+	cursor:pointer;
+	padding-left: 10px;
+	position: absolute;
+	top:-13px;
+	right:-13px;
+}
+
+a.close-button img {
+	border: none;
+}

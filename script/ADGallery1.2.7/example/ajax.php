@@ -1,0 +1,1 @@
+<?php echo "<div>TEST AJAX SOURCE</div>"; ?>

@@ -1,0 +1,101 @@
+
+.rowSelected {
+	background-color: #66CC66;
+}
+.add-edit-panel {
+	background-color: #FFF;
+	padding: 15px;
+}
+.hideme, .meta {
+   position: absolute !important;
+   top: -9999px !important;
+   left: -9999px !important;
+}
+.action-message {
+	background-color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	padding: 15px;
+}
+.subd-set {
+	display: none !important;
+}
+
+.down35 {
+	position: relative;
+	top: 35px;
+}
+#subd-list {
+	width: 180px;
+	margin: 0;
+	padding-right: 25px;
+}
+#subd-list div {
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+#subds-container {
+	border: 1px solid black;
+}
+.subd-header {
+	margin: 0 0 0 0;
+	padding: 5px 5px;
+	background-color: #0FF;
+	cursor:pointer;
+	border-bottom: 1px solid black;
+}
+
+#subdivisions-admin div {
+	display: inline;
+	float: left;
+}
+#action-label {
+	display: block;
+	float: none;
+	font-weight: bold;
+	font-size: 1.1em;
+	width: 100%;
+}
+#action-form {
+	width: 100%;
+	display: block;
+	float: none;
+}
+#subd-action-buttons * {
+	display: inline;
+	padding-right: 15px;
+}
+#subd-delete {
+	padding-left: 50px;
+}
+p:hover {
+	background-color: #ECFFB3;
+}
+
+.status {
+	display: none;
+	padding: 5px;
+	margin: 0;
+	position: absolute;
+	top: 250px;
+	left: 475px;
+	z-index: 10000;
+}
+#pointer {
+	width: 33px;
+}
+#status-message {
+	width: 145px;
+	padding-left: 15px;
+	padding-top: 5px;
+}
+.status div {
+	display: inline;
+	float: left;
+}
+
+
+
+
+

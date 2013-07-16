@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url> 
+    <loc>http://www.kenyounghomes.com/index.php</loc> 
+    <changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://www.kenyounghomes.com/buildmap.php</loc> 
+    <changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://www.kenyounghomes.com/floorplans.php</loc> 
+    <changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://www.kenyounghomes.com/inventory.php</loc> 
+    <changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://www.kenyounghomes.com/lease.php</loc> 
+    <changefreq>monthly</changefreq>
+  </url>
+  <url> 
+    <loc>http://www.kenyounghomes.com/about.php</loc> 
+    <changefreq>yearly</changefreq>
+  </url>
+  <url> 
+    <loc>http://www.kenyounghomes.com/contact.php</loc>
+    <changefreq>yearly</changefreq>
+  </url>
+</urlset>

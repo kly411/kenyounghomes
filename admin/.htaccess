@@ -1,0 +1,4 @@
+AuthUserFile /home/techprac/.htpasswd
+AuthType Basic
+AuthName "KYH Admin"
+Require valid-user

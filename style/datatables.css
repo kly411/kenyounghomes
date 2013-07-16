@@ -1,0 +1,41 @@
+/*DataTables-1.9.1*/
+tr.even {
+	background-color: #FFF;
+}
+tr.odd {
+	/*background-color: #EDF3FE;*/
+	background-color:#0FF;
+}
+.sorting {
+	background: url('../image/sort_both_darker.png') no-repeat center right;
+}
+.sorting_asc {
+	background: url('../image/sort_asc.png') no-repeat center right;
+}
+.sorting_desc {
+	background: url('../image/sort_desc.png') no-repeat center right;
+}
+#inv-table tbody tr.even:hover, #inv-table tbody tr.even td.highlighted {
+	background-color: #ECFFB3;
+}
+#inv-table tbody tr.odd:hover, #inv-table tbody tr.odd td.highlighted {
+	background-color: #E6FF99;
+}
+#inv-table tr.even:hover {
+	background-color: #ECFFB3;
+}
+#inv-table tr.odd:hover {
+	background-color: #E6FF99;
+}
+#fp-table tbody tr.even:hover, #inv-table tbody tr.even td.highlighted {
+	background-color: #ECFFB3;
+}
+#fp-table tbody tr.odd:hover, #inv-table tbody tr.odd td.highlighted {
+	background-color: #E6FF99;
+}
+#fp-table tr.even:hover {
+	background-color: #ECFFB3;
+}
+#fp-table tr.odd:hover {
+	background-color: #E6FF99;
+}

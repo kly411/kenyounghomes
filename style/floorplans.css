@@ -1,0 +1,79 @@
+/* CSS Document */
+
+
+#therest {
+	width:655px;
+	height:265px;
+}
+
+#outside {
+	/*height:350px;*/
+	max-height: 320px;
+	width:100%;
+	overflow:hidden;
+	float: none;
+	padding: 0;
+	margin: 0;
+}
+
+#specs {
+	height:43.6%;
+	width:50%;
+	padding-top:10px;
+	float: right;
+}
+
+#specs p {
+	/*text-align:center;*/
+	/*margin: 0 auto;*/
+}
+
+.plan-detail {
+	width: 100%;
+	font-size: 1.2em;
+	text-align: center;
+	background-color: #0FF;
+	margin: 0 0 5px 0;
+	padding: 0;
+	border-right: 1px solid black;
+	border-left: 1px solid black;
+	border-top: 1px solid black;
+}
+
+#outside div {
+	float:left;
+}
+
+.floorplan {
+	width:285px;
+	margin:0;
+	padding:0;
+}
+
+.floorplan img {
+	width:100%;
+	cursor: pointer;
+}
+
+.c-elevations {
+	height:43.6%;
+	width:50%;
+	padding-top:10px;
+	float: right;
+}
+
+.c-elevations img {
+	height:100%;
+	float:right;
+	cursor: pointer;
+	/*margin: 0 auto;*/
+}
+
+#modal-fp {
+	width:940px;
+}
+
+.spacer-row {
+	width: 100%;
+	height: 20px;
+}

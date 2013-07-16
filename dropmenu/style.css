@@ -1,0 +1,100 @@
+body {
+	background-color: #f6f6f6;
+	color: #666;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+}
+.dropmenu {
+	background:#F30;
+	float: left;
+	margin: 0px; 
+	padding: 0px;
+	border:1px solid #CCCCCC;
+	border-right: none;
+}
+
+.dropmenu li a, .dropmenu li{
+	float: left;
+}
+
+.dropmenu li{
+	list-style: none;
+	position: relative;	
+}
+
+.dropmenu li span{
+	background-color:#FFF;
+	display:block;
+	height:5px;
+	position:absolute;
+	right:10px;
+	top:11px;
+	width:5px;
+}
+
+.dropmenu li a:hover span{
+	background-color:#F30;
+}
+
+.dropmenu li a, .dropmenu li div{
+	padding: 6px 25px 6px 15px;
+	text-decoration: none;
+	background-color:#930;
+	border-right:1px solid #CCCCCC;
+	color:#FFF;
+}
+
+.dropmenu li a:hover{
+	background:#F30;
+}
+
+/* Submenu */
+.dropmenu li ul, .dropmenu li > div {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 100%;
+	padding: 0px;
+	margin: 0px;
+	border-bottom:1px solid #CCCCCC;
+	background:#F30;
+}
+
+.dropmenu.css-only li:hover > ul, .dropmenu.css-only li:hover > div{
+	display: block;
+	background:#F30;
+}
+
+.dropmenu li ul li, .dropmenu li ul li a{
+	float: none;
+	background:#F30;
+}
+
+.dropmenu li ul li{
+	_display: inline; /* for IE6 */	
+}
+
+.dropmenu li > div{
+	width: 200px;
+	border-top:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+	padding: 15px;
+}
+
+/* Sub submenu */
+
+.dropmenu li ul li a{
+	width: 150px;
+	display: block;	
+	border-top:1px solid #CCCCCC;
+	border-left:1px solid #CCCCCC;
+}
+.dropmenu li ul li a:hover{
+	background-color:#663;
+	font-weight: bold;
+}
+
+.dropmenu li ul li ul, .dropmenu li ul li > div{
+	top: 0px;
+	left: 100%;
+}
